@@ -4,10 +4,8 @@ install.packages("usethis")
 library(gitcreds)
 library(usethis)
 
-
 # Check for recent R version
 R.version.string
-
 
 # Configure GitHub username (probably don't need to do this if you've already set up Git)
 use_git_config(user.name = "USER", user.email = "EMAIL")
